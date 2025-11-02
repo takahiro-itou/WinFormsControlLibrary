@@ -4,5 +4,11 @@
     <Compile Update="SampleControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="TextBox\TextBoxWithButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Utils\RectSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
