@@ -34,10 +34,14 @@ public partial class RectSelectForm : UserControl
 
     private void btnCancel_Click(object sender, System.EventArgs e)
     {
+        this.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+        this.Close();
     }
 
     private void btnOK_Click(object sender, System.EventArgs e)
     {
+        this.DialogResult = System.Windows.Forms.DialogResult.OK;
+        this.Close();
     }
 
 }   //  End of partial class  RectSelectForm
