@@ -19,7 +19,7 @@ public partial class RectSelectForm : UserControl
         this.lastRect.Y      = c.Top;
         this.lastRect.Width  = c.Width;
         this.lastRect.Height = c.Height;
-        btnOK.Text = $"{c.Width} x {c.Height} @ pos = {c.Left}, {c.Top}"
+        btnOK.Text = $"{c.Width} x {c.Height} @ pos = {c.Left}, {c.Top}";
     }
 
     private void RectSelectForm_Resize(object sender, System.EventArgs e)
@@ -29,7 +29,7 @@ public partial class RectSelectForm : UserControl
         this.lastRect.Y      = c.Top;
         this.lastRect.Width  = c.Width;
         this.lastRect.Height = c.Height;
-        btnOK.Text = $"{c.Width} x {c.Height} @ pos = {c.Left}, {c.Top}"
+        btnOK.Text = $"{c.Width} x {c.Height} @ pos = {c.Left}, {c.Top}";
     }
 
     private void btnCancel_Click(object sender, System.EventArgs e)
