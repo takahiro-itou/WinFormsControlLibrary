@@ -55,8 +55,6 @@
             this.PerformLayout();
         }
 
-        #endregion
-
         private Label lblCaption;
         private TextBox txtEdit;
         private Button btnRefer;
