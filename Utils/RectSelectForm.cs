@@ -3,7 +3,7 @@ using System.ComponentModel;
 
 namespace  WinFormsControl  {
 
-public partial class RectSelectForm : UserControl
+public partial class RectSelectForm : System.Windows.Forms.Form
 {
     public System.Drawing.Rectangle lastRect;
 
