@@ -47,7 +47,6 @@
             this.Controls.Add(btnCancel);
             this.Controls.Add(btnOK);
             this.Name = "RectSelectForm";
-            this.Load += RectSelectForm_Load;
             this.Move += RectSelectForm_Move;
             this.Resize += RectSelectForm_Resize;
 
