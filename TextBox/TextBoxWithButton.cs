@@ -10,6 +10,45 @@ public partial class TextBoxWithButton : UserControl
         InitializeComponent();
     }
 
+    //----------------------------------------------------------------
+    //    ButtonText  プロパティ
+    //
+    [Browsable(true)
+      , Description("ボタンに表示する文字列")
+      , Category("表示")
+    ]
+    public String ButtonText
+    {
+        get { return  btnRefer.Text; }
+        set { btnRefer.Text = value; }
+    }
+
+    //----------------------------------------------------------------
+    //    LabelCaption  プロパティ
+    //
+    [Browsable(true)
+      , Description("ラベルに表示する文字列")
+      , Category("表示")
+    ]
+    public String LabelCaption
+    {
+        get { return  lblCaption.Text; }
+        set { lblCaption.Text = value; }
+    }
+
+    //----------------------------------------------------------------
+    //    Text  プロパティ
+    //
+    [Browsable(true)
+      , Description("テキストボックスに入力された文字列")
+      , Category("表示")
+    ]
+    public String Text
+    {
+        get { return  txtEdit.Text; }
+        set { txtEdit.Text = value; }
+    }
+
 }   //  End of partial class  TextBoxWithButton
 
 }   //  End of namespace  WinFormsControl
