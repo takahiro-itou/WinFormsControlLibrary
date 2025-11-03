@@ -7,6 +7,7 @@
     <Nullable>enable</Nullable>
     <RootNamespace>WinFormsControl</RootNamespace>
     <TargetFrameworks>
+      net6.0-windows;
       net48;
     </TargetFrameworks>
     <UseWindowsForms>true</UseWindowsForms>
