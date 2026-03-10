@@ -12,8 +12,9 @@ public partial class TextBoxWithButton : UserControl
     }
 
     //----------------------------------------------------------------
-    //    ButtonText  プロパティ
-    //
+    /**   ButtonText  プロパティ
+    **
+    **/
     [Browsable(true)
       , Description("ボタンに表示する文字列")
       , Category("表示")
@@ -25,8 +26,9 @@ public partial class TextBoxWithButton : UserControl
     }
 
     //----------------------------------------------------------------
-    //    LabelCaption  プロパティ
-    //
+    /**   LabelCaption  プロパティ
+    **
+    **/
     [Browsable(true)
       , Description("ラベルに表示する文字列")
       , Category("表示")
@@ -38,13 +40,14 @@ public partial class TextBoxWithButton : UserControl
     }
 
     //----------------------------------------------------------------
-    //    Text  プロパティ
-    //
+    /**   Text  プロパティ
+    **
+    **/
     [Browsable(true)
       , Description("テキストボックスに入力された文字列")
       , Category("表示")
     ]
-    public System.String Text
+    public new System.String Text
     {
         get { return  txtEdit.Text; }
         set { txtEdit.Text = value; }

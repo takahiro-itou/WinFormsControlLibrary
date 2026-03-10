@@ -1,0 +1,4 @@
+[submodule "Editor/BinaryEditor"]
+	path = Editor/BinaryEditor
+	url  = ../ucBinaryEditor.git
+
