@@ -2,3 +2,6 @@
 	path = Editor/BinaryEditor
 	url  = ../ucBinaryEditor.git
 
+[submodule "Sample/SampleControl"]
+	path = Sample/SampleControl
+	url  = ../ucSampleControl.git
