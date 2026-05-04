@@ -7,3 +7,6 @@
 [submodule "TextBox"]
 	path = TextBox
 	url  = ../ucTextBox.git
+[submodule "Utils/RectSelectForm"]
+	path = Utils/RectSelectForm
+	url  = ../ucRectSelectForm.git
