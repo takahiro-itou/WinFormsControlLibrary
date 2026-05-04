@@ -20,10 +20,12 @@
   <ItemGroup>
     <Compile Include="Sample/SampleControl/SampleControl.cs" />
     <Compile Include="Sample/SampleControl/SampleControl.Designer.cs" />
+
     <Compile Include="TextBox/TextBoxWithButton.cs" />
     <Compile Include="TextBox/TextBoxWithButton.Designer.cs" />
-    <Compile Include="Utils/RectSelectForm.cs" />
-    <Compile Include="Utils/RectSelectForm.Designer.cs" />
+
+    <Compile Include="Utils/RectSelectForm/RectSelectForm.cs" />
+    <Compile Include="Utils/RectSelectForm/RectSelectForm.Designer.cs" />
   </ItemGroup>
 
 </Project>
